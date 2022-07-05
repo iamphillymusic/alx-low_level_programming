@@ -40,10 +40,12 @@ int main(void)
 																						putchar(' ');
  	     																				}
 																																																										}
-																				c2++;
+																				c2++;		
 																				}
-																				c++
+
+	c++;
+
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }
