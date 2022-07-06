@@ -1,4 +1,4 @@
-int main(void)
+#include "main.h"
 {
 	char var[] = "_putchar";
 	int ii;
