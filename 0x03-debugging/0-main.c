@@ -1,4 +1,5 @@
 #include "main.h"
+int main(void)
 {
 	char var[] = "_putchar";
 	int ii;
