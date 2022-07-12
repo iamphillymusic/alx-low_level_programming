@@ -1,11 +1,9 @@
-
-
 #include "main.h"
 /**
- *  * print_rev - function to print in reverse
- *   * @s: value taken from main
- *    * Return: (0)
- *     */
+* print_rev - function to print in reverse
+* @s: value taken from main
+* Return: (0)
+*/
 void print_rev(char *s)
 {
 int len;
