@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
 * string_toupper - converts all lowercase letters of a string to uppercase
 * @str: string to be comverted
@@ -16,3 +16,4 @@ str++;
 }
 return (new_str);
 }
+

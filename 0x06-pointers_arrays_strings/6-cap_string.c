@@ -44,7 +44,7 @@ int i;
 for (i = 0; i < n; i++)
 {
 if (c == seps[i])
-	return (1);
+return (1);
 }
 return (0);
 }
@@ -56,7 +56,7 @@ return (0);
 char cap_char(char c)
 {
 if (c >= 'a' && c <= 'z')
-	return (c - 32);
+return (c - 32);
 return (c);
 }
 
