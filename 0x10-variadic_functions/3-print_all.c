@@ -57,7 +57,8 @@ void print_all(const char * const format, ...)
 unsigned int i, j;
 print_t p[] = {
 {"c", print_c},
-{"s", print_s},									{"i", print_i},
+{"s", print_s},	
+{"i", print_i},
 {"f", print_f},
 {NULL, NULL}
 };
@@ -66,7 +67,8 @@ char *separator = "";
 va_start(valist, format);
 i = 0;
 while (format & format[i])
-{										j = 0;
+{
+j = 0;
 while (p[j].t != NULL)
 {
 if (*(p[j].t) == format[i])
@@ -76,8 +78,10 @@ p[j].f(valist);
 separator = ", ";
 break;
 }
-j++;										}
+j++;
+}
 i++;
 }
-va_end(valist);									printf("\n");
+va_end(valist);	
+printf("\n");
 }
